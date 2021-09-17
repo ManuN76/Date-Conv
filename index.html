@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Glide Yes-Code</title>
+</head>
+<div>
+  <span id="result"></span>
+</div>
+<script src='glidedate.js'></script>'
+<script src="function.js"></script>
+<script src="driver.js"></script>
+
+
+<script>
+  // TEST DEBUG !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  testDebug();
+ // setInterval(testDebug, 10000);
+
+  async function testDebug() {
+  //let now = { type: "date-time", value: "16/09/2021" };
+  //let now = { type: "date-time", value: new Date().toISOString() }; 
+  // "2021-09-13T22:12:58.288Z" 
+  let now = { type: "date-time", value: "2021-09-13T22:12:58.288Z" };
+
+  let lang = { type: "string", value: "fr" };
+  let weekday = { type: "string", value: "long" };
+  let year = { type: "string", value: "numeric" };
+  let month = { type: "string", value: "long" };
+  let day = { type: "string", value: "numeric" };
+  let hour = { type: "string", value: "numeric" };
+  let minute = { type: "string", value: "2-digit" };
+  let second = { type: "string", value: "2-digit"};
+  let timeZoneName = { type: "string", value: "long" };
+  let era = { type: "string", value: "long"};
+
+  let result = await window.function(now, lang, weekday, year, month, day, hour, minute, second, timeZoneName, era);
+  document.getElementById("result").innerHTML = result;
+  
+  }
+</script>
+</body>
+
+</html>

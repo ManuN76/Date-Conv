@@ -1,0 +1,66 @@
+{
+  "kind": "column",
+  "name": "DateTestConv",
+  "description": "Date Test Convert to dd/mm/yyyy",
+  "author": "Manu",
+   "params": [
+    {
+      "name": "date",
+      "displayName": "Date",
+      "type": "date-time"
+    },
+    {
+      "name": "lang",
+      "displayName": "Language : empty (local language) or example : fr or en",
+      "type": "string"
+    },
+    {
+      "name": "weekday",
+      "displayName": "Weekday : empty or long, short, narrow",
+      "type": "string"
+    },
+    {
+      "name": "year",
+      "displayName": "Year : empty or numeric, 2-digit",
+      "type": "string"
+    },
+    {
+      "name": "month",
+      "displayName": "Month : empty or numeric, 2-digit, long, short, narrow",
+      "type": "string"
+    },
+    {
+      "name": "day",
+      "displayName": "Day : empty or numeric, 2-digit",
+      "type": "string"
+    },
+    {
+      "name": "hour",
+      "displayName": "Hour : empty or numeric, 2-digit",
+      "type": "string"
+    },
+    {
+      "name": "minute",
+      "displayName": "Minute : empty or numeric, 2-digit",
+      "type": "string"
+    },
+    {
+      "name": "second",
+      "displayName": "Second : empty or numeric, 2-digit",
+      "type": "string"
+    },
+    {
+      "name": "timeZoneName",
+      "displayName": "timeZoneName : empty or long, short",
+      "type": "string"
+    },
+    {
+      "name": "era",
+      "displayName": "Weekday : empty or long, short, narrow",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
