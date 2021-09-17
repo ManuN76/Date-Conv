@@ -56,7 +56,7 @@
     },
     {
       "name": "era",
-      "displayName": "Weekday : empty or long, short, narrow",
+      "displayName": "ERA : empty or long, short, narrow",
       "type": "string"
     }
   ],
