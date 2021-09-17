@@ -1,7 +1,7 @@
 {
   "kind": "column",
-  "name": "DateTestConv",
-  "description": "Date Test Convert to dd/mm/yyyy",
+  "name": "DateConv",
+  "description": "Date Convert to language with option display",
   "author": "Manu",
    "params": [
     {
